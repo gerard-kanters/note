@@ -1,0 +1,51 @@
+{
+    "name": "gerard-kanters/note",
+    "description": "A simple and easy to use widget for editing bits of text, live, in your WordPress Customizer",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Gerard Kanters",
+            "email": "gerard@kanters.nl",
+            "homepage": "https://github.com/gerard-kanters"
+        },
+        {
+            "name": "Slocum Studio",
+            "homepage": "https://slocumstudio.com/"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "widget",
+        "customizer",
+        "live-edit",
+        "wysiwyg",
+        "text-editor"
+    ],
+    "homepage": "https://github.com/gerard-kanters/note",
+    "support": {
+        "issues": "https://github.com/gerard-kanters/note/issues",
+        "source": "https://github.com/gerard-kanters/note"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Note\\": "includes/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "extra": {
+        "installer-name": "note"
+    }
+} 
